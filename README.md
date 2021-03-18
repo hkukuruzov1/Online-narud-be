@@ -16,7 +16,7 @@ Prednost ove aplikacije je ta što je napravljena na način da ćete biti u toku
 ## Akteri
 - Administrator
 - Neregistrovani korisnik
-- Registrovani korisnik
+- Naručilac (registrovani korisnik)
 - Dostavljač
 - Restoran
 
@@ -32,3 +32,22 @@ Prednost ove aplikacije je ta što je napravljena na način da ćete biti u toku
 - Mogućnost registrovanja kao korisnik ili dostavljač
 - Mogućnost pregleda restorana i njihove ponude
 - Mogućnost slanja zahtjeva za dodavanje restorana u sistem
+
+#### Naručilac (registrovani korisnik)
+- Mogućnost pregleda restorana i njihove ponude
+- Mogućnost naručivanja željenih proizvoda
+- Mogućnost praćenja stanja narudžbi
+- Mogućnost plaćanja online i prilikom dostave
+- Mogućnost ostavljanja dojma restoranu i dostavljaču u vidu ocjene i komentara
+- Pamćenje adresa korištenih za dostavu
+- Mogućnost uređivanja profila
+
+#### Dostavljač
+- Mogućnost pregleda narudžbi za koje se traži kurir
+- Mogućnost filtriranja narudžbi u zavisnosti od udaljenosti narudžbe
+- Mogućnost filtriranja narudžbi u zavisnosti od cijene narudžbe koja je proporcionalna profitu
+- Mogućnost uređivanja profila
+
+#### Restoran
+- Mogućnost dodavanja novih jela/proizvoda
+- Mogućnost izmjene postojećih jela/proizvoda
