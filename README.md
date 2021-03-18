@@ -51,3 +51,8 @@ Prednost ove aplikacije je ta što je napravljena na način da ćete biti u toku
 #### Restoran
 - Mogućnost dodavanja novih jela/proizvoda
 - Mogućnost izmjene postojećih jela/proizvoda
+
+## Nefunkcionalni zahtjevi
+- Responzivan korisnički interfejs na svim uređajima i operativnim sistemima
+- Sigurnost prilikom online plaćanja
+- Sigurno čuvanje podataka u bazi podataka
