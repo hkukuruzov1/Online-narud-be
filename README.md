@@ -56,3 +56,4 @@ Prednost ove aplikacije je ta što je napravljena na način da ćete biti u toku
 - Responzivan korisnički interfejs na svim uređajima i operativnim sistemima
 - Sigurnost prilikom online plaćanja
 - Sigurno čuvanje podataka u bazi podataka
+- Validacija svih korisničkih podataka
