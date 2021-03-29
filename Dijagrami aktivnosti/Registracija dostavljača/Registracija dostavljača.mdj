@@ -392,8 +392,8 @@
 													"left": 453,
 													"top": 223,
 													"width": 85.26171875,
-													"height": 26,
-													"text": "Prikaze forme",
+													"height": 13,
+													"text": "Prikaz forme",
 													"wordWrap": true
 												},
 												{
@@ -426,7 +426,7 @@
 											"left": 448,
 											"top": 216,
 											"width": 95.26171875,
-											"height": 38,
+											"height": 25,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAF4f+2WcLHOxnY="
 											},
@@ -1886,8 +1886,6 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -16,
-													"top": -16,
 													"height": 13
 												},
 												{
@@ -1897,11 +1895,11 @@
 														"$ref": "AAAAAAF4f/5OnbRANWg="
 													},
 													"font": "Arial;13;1",
-													"left": 421,
-													"top": 615,
+													"left": 429,
+													"top": 623,
 													"width": 119,
 													"height": 39,
-													"text": "Slanje e-maila o odbijenom zahjtevu",
+													"text": "Slanje e-maila o odbijenom zahtjevu",
 													"wordWrap": true
 												},
 												{
@@ -1912,8 +1910,6 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -16,
-													"top": -16,
 													"width": 86.6708984375,
 													"height": 13,
 													"text": "(from Activity1)"
@@ -1926,15 +1922,13 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -16,
-													"top": -16,
 													"horizontalAlignment": 1,
 													"wordWrap": true
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 416,
-											"top": 608,
+											"left": 424,
+											"top": 616,
 											"width": 129,
 											"height": 51,
 											"stereotypeLabel": {
@@ -1953,8 +1947,8 @@
 									],
 									"font": "Arial;13;0",
 									"containerChangeable": true,
-									"left": 416,
-									"top": 608,
+									"left": 424,
+									"top": 616,
 									"width": 129,
 									"height": 67,
 									"nameCompartment": {
@@ -2086,7 +2080,7 @@
 												"$ref": "AAAAAAF4gACUPrSAzpg="
 											},
 											"font": "Arial;13;0",
-											"left": 584,
+											"left": 588,
 											"top": 632,
 											"width": 49.14990234375,
 											"height": 13,
@@ -2109,7 +2103,7 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 591,
+											"left": 595,
 											"top": 672,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -2130,7 +2124,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 592,
+											"left": 596,
 											"top": 627,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -2148,7 +2142,7 @@
 									"tail": {
 										"$ref": "AAAAAAF4f/yjl7QZg/E="
 									},
-									"points": "640:648;544:648",
+									"points": "640:648;552:648",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAF4gACUPrSCD2M="
@@ -2445,7 +2439,7 @@
 									"tail": {
 										"$ref": "AAAAAAF4f/5OnbQ/dzs="
 									},
-									"points": "424:674;424:856;480:856",
+									"points": "424:682;424:856;480:856",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAF4gALTirTD4uw="
@@ -2568,7 +2562,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF4f+Qh0rFJCmg="
 							},
-							"name": "Prikaze forme"
+							"name": "Prikaz forme"
 						},
 						{
 							"_type": "UMLAction",
@@ -2666,7 +2660,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF4f+Qh0rFJCmg="
 							},
-							"name": "Slanje e-maila o odbijenom zahjtevu"
+							"name": "Slanje e-maila o odbijenom zahtjevu"
 						},
 						{
 							"_type": "UMLAction",
