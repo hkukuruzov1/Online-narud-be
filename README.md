@@ -1,7 +1,8 @@
 # Grupa4-Uživaoci Alhamijado književnosti
-
+![2219a36df16345d980d749812098f8ff](https://user-images.githubusercontent.com/73561729/113638792-f758d200-9677-11eb-862b-4f51756ccac5.png)
 ## Tema
 **Web aplikacija za narudžbe i dostavu hrane**
+
 
 ## Članovi tima
 - [Kovačević Hamza](https://github.com/hkovacevic2)
