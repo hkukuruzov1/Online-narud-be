@@ -1158,7 +1158,7 @@
 											"top": 393,
 											"width": 615,
 											"height": 13,
-											"text": "+dodajJelo(jelo: Jelo, količina: int)",
+											"text": "+dodajJelo(jelo: Jelo, količina: int): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1175,7 +1175,7 @@
 											"top": 408,
 											"width": 615,
 											"height": 13,
-											"text": "+izbaciJelo(jelo: Jelo, količina: Int)",
+											"text": "+izbaciJelo(jelo: Jelo, količina: Int): void",
 											"horizontalAlignment": 0
 										}
 									],
@@ -9225,6 +9225,16 @@
 									},
 									"name": "količina",
 									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF4yGpQxy0Og5o=",
+									"_parent": {
+										"$ref": "AAAAAAF4yGXpoP7ct50="
+									},
+									"name": "Parameter1",
+									"type": "void",
+									"direction": "return"
 								}
 							]
 						},
@@ -9255,6 +9265,15 @@
 									},
 									"name": "količina",
 									"type": "Int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF4yGqvly8Og9c=",
+									"_parent": {
+										"$ref": "AAAAAAF4yGX/pgCPyAM="
+									},
+									"type": "void",
+									"direction": "return"
 								}
 							]
 						}
