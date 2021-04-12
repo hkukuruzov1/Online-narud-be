@@ -1,4 +1,0 @@
-﻿Narudzba-cijena, status, lista jela, unikatni broj, način plaćanja
-Status-lokacija, datum, vrijeme narudžbe
-Jela-id, cijena, naziv, enum vrste jela
-Korisnik apstraktna(ime,prezime,id)-> Dostavljača, Naručilac(lista adresa), Restoran(naziv restorana, lista jela).
