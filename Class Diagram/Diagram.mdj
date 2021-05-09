@@ -7645,13 +7645,64 @@
 											"height": 13,
 											"text": "+vrijemeSvršetka: DateTime",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5UQHs9HKM0uM=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMwveY="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQHs0nJlWJs="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 760,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "-naručilac: Naručilac",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5UQH5AnPK7qk=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMwveY="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQH47XOjf+I="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 775,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "-dostavljač: Dostavljač",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5UQIESHUIeDE=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMwveY="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQID13ThuE4="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 790,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "-restoran: Restoran",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1320,
 									"top": 665,
 									"width": 614.2587890625,
-									"height": 98
+									"height": 143
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -7674,7 +7725,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 768,
+											"top": 813,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "«create»+InfoNarudžbe(koordinateNaručioca: Tuple<double,double>, vrijeme: DateTime)",
@@ -7691,7 +7742,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 783,
+											"top": 828,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+getDistance(): double",
@@ -7708,7 +7759,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 798,
+											"top": 843,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+getPolazne(): Tuple<double,double>",
@@ -7725,7 +7776,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 813,
+											"top": 858,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+getRestoranove(): Tuple<double,double>",
@@ -7742,7 +7793,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 828,
+											"top": 873,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+getNaručioceve(): Tuple<double,double>",
@@ -7759,7 +7810,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 843,
+											"top": 888,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+getVrijemePocetka(): DateTime",
@@ -7776,7 +7827,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 858,
+											"top": 903,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+getVrijemeSvršetka(): DateTime",
@@ -7793,7 +7844,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 873,
+											"top": 918,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+setPolazneKoordinate(koordinate: Tuple<double,double>): void",
@@ -7810,7 +7861,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 888,
+											"top": 933,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+setKoordinateRestorana(koordinate: Tuple<double,double>): void",
@@ -7827,7 +7878,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 903,
+											"top": 948,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+setKoordinateNaručioca(koordinate: Tuple<double,double>): void",
@@ -7844,18 +7895,103 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1325,
-											"top": 918,
+											"top": 963,
 											"width": 604.2587890625,
 											"height": 13,
 											"text": "+setVrijemeSvršetka(vrijeme: DateTime): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF5UQPGN43qY6E=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMxoYM="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQPGBI3D1bc="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 978,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "+getNaručlac(): Naručilac",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF5UQPWl48oefA=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMxoYM="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQPWZY8BI4A="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 993,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "+getDostavljač(): Dostavljač",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF5UQPhi5BmTfU=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMxoYM="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQPhVZA/NdQ="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 1008,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "+getRestoran(): Restoran",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF5UQSoBJnivlw=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMxoYM="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQSnzpm7WlE="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 1023,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "+setDostavljač(): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF5UQTFYpyt6So=",
+											"_parent": {
+												"$ref": "AAAAAAF4yC8OzNMxoYM="
+											},
+											"model": {
+												"$ref": "AAAAAAF5UQTFNpyGhSM="
+											},
+											"font": "Arial;13;0",
+											"left": 1325,
+											"top": 1038,
+											"width": 604.2587890625,
+											"height": 13,
+											"text": "+setRestoran(): void",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1320,
-									"top": 763,
+									"top": 808,
 									"width": 614.2587890625,
-									"height": 173
+									"height": 248
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -7895,7 +8031,7 @@
 							"left": 1320,
 							"top": 640,
 							"width": 614.2587890625,
-							"height": 297,
+							"height": 416,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4yC8OzNMrdME="
 							},
@@ -10760,6 +10896,42 @@
 							},
 							"name": "vrijemeSvršetka",
 							"type": "DateTime"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5UQHs0nJlWJs=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "naručilac",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAF4wqtUUQtoKzk="
+							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5UQH47XOjf+I=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "dostavljač",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAF4wsgW0w2XpUM="
+							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5UQID13ThuE4=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "restoran",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAF4wsgxCg3SfQY="
+							}
 						}
 					],
 					"operations": [
@@ -11015,6 +11187,107 @@
 									"_id": "AAAAAAF4yDzbygkylrM=",
 									"_parent": {
 										"$ref": "AAAAAAF4yDyHYAhnNiY="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF5UQPGBI3D1bc=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "getNaručlac",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF5UQa7atDQiY4=",
+									"_parent": {
+										"$ref": "AAAAAAF5UQPGBI3D1bc="
+									},
+									"type": {
+										"$ref": "AAAAAAF4wqtUUQtoKzk="
+									},
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF5UQPWZY8BI4A=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "getDostavljač",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF5UQbd39G91yA=",
+									"_parent": {
+										"$ref": "AAAAAAF5UQPWZY8BI4A="
+									},
+									"type": {
+										"$ref": "AAAAAAF4wsgW0w2XpUM="
+									},
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF5UQPhVZA/NdQ=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "getRestoran",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF5UQbvKtKq4E4=",
+									"_parent": {
+										"$ref": "AAAAAAF5UQPhVZA/NdQ="
+									},
+									"type": {
+										"$ref": "AAAAAAF4wsgxCg3SfQY="
+									},
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF5UQSnzpm7WlE=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "setDostavljač",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF5UQcUztOXvp0=",
+									"_parent": {
+										"$ref": "AAAAAAF5UQSnzpm7WlE="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF5UQTFNpyGhSM=",
+							"_parent": {
+								"$ref": "AAAAAAF4yC8BadMCOy0="
+							},
+							"name": "setRestoran",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF5UQcgzNSEvb0=",
+									"_parent": {
+										"$ref": "AAAAAAF5UQTFNpyGhSM="
 									},
 									"type": "void",
 									"direction": "return"
