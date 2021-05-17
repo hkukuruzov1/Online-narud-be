@@ -7,5 +7,9 @@ namespace Trofi.Models
 {
     public class Dojam
     {
+        private int idDojma;
+        private int idNarudžbe;
+        private double ocjenaResotana;
+        private double ocjenaDostavljača;
     }
 }

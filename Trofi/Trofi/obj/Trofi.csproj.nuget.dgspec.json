@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adnan\\Tofi\\Trofi\\Trofi\\Trofi.csproj": {}
+    "C:\\Users\\Adnan\\Desktop\\OOAD projekat\\Grupa4-OnlineNarudzbe\\Trofi\\Trofi\\Trofi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adnan\\Tofi\\Trofi\\Trofi\\Trofi.csproj": {
+    "C:\\Users\\Adnan\\Desktop\\OOAD projekat\\Grupa4-OnlineNarudzbe\\Trofi\\Trofi\\Trofi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adnan\\Tofi\\Trofi\\Trofi\\Trofi.csproj",
+        "projectUniqueName": "C:\\Users\\Adnan\\Desktop\\OOAD projekat\\Grupa4-OnlineNarudzbe\\Trofi\\Trofi\\Trofi.csproj",
         "projectName": "Trofi",
-        "projectPath": "C:\\Users\\Adnan\\Tofi\\Trofi\\Trofi\\Trofi.csproj",
+        "projectPath": "C:\\Users\\Adnan\\Desktop\\OOAD projekat\\Grupa4-OnlineNarudzbe\\Trofi\\Trofi\\Trofi.csproj",
         "packagesPath": "C:\\Users\\Adnan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adnan\\Tofi\\Trofi\\Trofi\\obj\\",
+        "outputPath": "C:\\Users\\Adnan\\Desktop\\OOAD projekat\\Grupa4-OnlineNarudzbe\\Trofi\\Trofi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
