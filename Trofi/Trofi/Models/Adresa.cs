@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,9 +8,15 @@ namespace Trofi.Models
 {
     public class Adresa
     {
+        [Required]
+        [RegularExpression("[A-Z][A-Z|a-z| ]*")]
         private string naziv;
+        [Required]
+        [Range(0,int.MaxValue)]
         private int broj;
+        [RegularExpression(@"[A-Z][a-z]*")]
         private string grad;
+        [Range(0,int.MaxValue)]
         private int poštanskiBroj;
 
         public Adresa(string naziv, int broj, string grad, int poštanskiBroj)

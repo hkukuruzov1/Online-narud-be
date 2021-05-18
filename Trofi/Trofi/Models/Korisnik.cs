@@ -9,10 +9,22 @@ namespace Trofi.Models
     public  abstract class Korisnik
     {
         [Required]
+        [Key]
         private int id;
         [Required]
-        private string ime, prezime, username;
+        [StringLength(maximumLength:20,MinimumLength =2,ErrorMessage ="Ime nije u opsegu od 2 do 20 karaktera!")]
+        [RegularExpression(@"[A-Z]+[a-z]*")]
+        private string ime;
         [Required]
+        [StringLength(maximumLength: 20, MinimumLength = 2, ErrorMessage = "Prezime nije u opsegu od 2 do 20 karaktera!")]
+        [RegularExpression(@"[A-Z]+[a-z]*")]
+        private string prezime;
+        [Required]
+        [StringLength(maximumLength: 20, MinimumLength = 2, ErrorMessage = "Username nije u opsegu od 2 do 20 karaktera!")]
+        [RegularExpression(@"[A-Z|a-z|0-9]+")]
+        private string username;
+        [Required]
+        [StringLength(maximumLength:50,MinimumLength =5, ErrorMessage = "Password mora biti duži od 5, a kraći od 50 karaktera")]
         private string password;
         [EmailAddress]
         private string email;

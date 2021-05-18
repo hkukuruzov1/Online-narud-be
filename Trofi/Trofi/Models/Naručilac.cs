@@ -13,5 +13,7 @@ namespace Trofi.Models
         {
             
         }
+
+        public Narudžba Narudžba { get => narudžba; set => narudžba = value; }
     }
 }
