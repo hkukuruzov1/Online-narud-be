@@ -1,0 +1,50 @@
+﻿@model Korisnik
+@{
+    ViewData["Title"] = "Registracija";
+}
+
+<form asp-controller="Home" asp-action="Registracija" class="align-items-center m-auto" method="post">
+    <div class="container  w-50 h-50">
+        <div class="form-row m-2">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Korisničko ime" asp-for="Username"/>
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="col">
+                <input type="email" class="form-control" placeholder="Email" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row m-2">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Ime" asp-for="Ime" />
+                <span asp-validation-for="Ime" class="text-danger"></span>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Prezime" asp-for="Prezime"/>
+                <span asp-validation-for="Prezime" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row m-2">
+            <div class="col">
+                <input type="password" class="form-control" placeholder="Password" asp-for="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="col">
+                <input type="password" class="form-control" placeholder="Ponovi password" name="ponovljeniPassword" />
+                
+            </div>
+        </div>
+        <div class="form-row m-2">
+            <select class="custom-select m-1" required name="vrstaKorisnika">
+                <option value="">Vrsta korisnika</option>
+                <option value="1">Naručilac</option>
+                <option value="2">Dostavljač</option>
+                <option value="3">Restoran</option>
+            </select>
+        </div>
+        <div class="form-row justify-content-center">
+        <button type="submit" class="btn btn-primary ">Registruj me</button>
+        </div>
+        </div>
+</form>
