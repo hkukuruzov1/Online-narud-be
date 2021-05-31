@@ -1426,13 +1426,30 @@
 											"height": 13,
 											"text": "+Uručena",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5v/tWnmFyZmo=",
+											"_parent": {
+												"$ref": "AAAAAAF4wqzvTQwjUR4="
+											},
+											"model": {
+												"$ref": "AAAAAAF5v/tWiWFvGBs="
+											},
+											"font": "Arial;13;0",
+											"left": 1357,
+											"top": 558,
+											"width": 170.91064453125,
+											"height": 13,
+											"text": "+Odbijena",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1352,
 									"top": 478,
 									"width": 180.91064453125,
-									"height": 83
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1445,7 +1462,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1352,
-									"top": 561,
+									"top": 576,
 									"width": 180.91064453125,
 									"height": 10
 								},
@@ -1487,7 +1504,7 @@
 							"left": 1352,
 							"top": 440,
 							"width": 180.91064453125,
-							"height": 131,
+							"height": 146,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4wqzvTQweELs="
 							},
@@ -9514,6 +9531,14 @@
 							},
 							"name": "Uručena",
 							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5v/tWiWFvGBs=",
+							"_parent": {
+								"$ref": "AAAAAAF4wqzvTAwbuB4="
+							},
+							"name": "Odbijena"
 						}
 					]
 				},
