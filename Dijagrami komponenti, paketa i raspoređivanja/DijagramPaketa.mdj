@@ -436,9 +436,6 @@
 								},
 								{
 									"$ref": "AAAAAAF5xNzEkL8TG+U="
-								},
-								{
-									"$ref": "AAAAAAF5xK02R7yyTlA="
 								}
 							],
 							"font": "Arial;13;0",
@@ -5343,108 +5340,105 @@
 							}
 						},
 						{
-							"_type": "UMLModelView",
-							"_id": "AAAAAAF5xK02R7yyTlA=",
+							"_type": "UMLSubsystemView",
+							"_id": "AAAAAAF5xPB2/I6YtjA=",
 							"_parent": {
 								"$ref": "AAAAAAF5xHr3lbZS3cI="
 							},
 							"model": {
-								"$ref": "AAAAAAF5xK02R7ywgLQ="
+								"$ref": "AAAAAAF5xPB2/I6Whl0="
 							},
 							"subViews": [
 								{
 									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAF5xK02R7yz+DU=",
+									"_id": "AAAAAAF5xPB2/I6ZcPk=",
 									"_parent": {
-										"$ref": "AAAAAAF5xK02R7yyTlA="
+										"$ref": "AAAAAAF5xPB2/I6YtjA="
 									},
 									"model": {
-										"$ref": "AAAAAAF5xK02R7ywgLQ="
+										"$ref": "AAAAAAF5xPB2/I6Whl0="
 									},
 									"subViews": [
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF5xK02R7y0xts=",
+											"_id": "AAAAAAF5xPB2/Y6a/lo=",
 											"_parent": {
-												"$ref": "AAAAAAF5xK02R7yz+DU="
+												"$ref": "AAAAAAF5xPB2/I6ZcPk="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 112,
-											"top": -16,
+											"left": -32,
+											"top": -32,
 											"height": 13
 										},
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF5xK02R7y1QJ4=",
+											"_id": "AAAAAAF5xPB2/Y6bu0k=",
 											"_parent": {
-												"$ref": "AAAAAAF5xK02R7yz+DU="
+												"$ref": "AAAAAAF5xPB2/I6ZcPk="
 											},
 											"font": "Arial;13;1",
-											"left": 205,
+											"left": 189,
 											"top": 302,
-											"width": 52.0126953125,
+											"width": 76.5908203125,
 											"height": 13,
 											"text": "Korisnik"
 										},
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF5xK02R7y2ypY=",
+											"_id": "AAAAAAF5xPB2/Y6cn9o=",
 											"_parent": {
-												"$ref": "AAAAAAF5xK02R7yz+DU="
+												"$ref": "AAAAAAF5xPB2/I6ZcPk="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 112,
-											"top": -16,
+											"left": -32,
+											"top": -32,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
 										},
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF5xK02R7y3F1c=",
+											"_id": "AAAAAAF5xPB2/Y6dL8A=",
 											"_parent": {
-												"$ref": "AAAAAAF5xK02R7yz+DU="
+												"$ref": "AAAAAAF5xPB2/I6ZcPk="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 112,
-											"top": -16,
+											"left": -32,
+											"top": -32,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 200,
+									"left": 184,
 									"top": 295,
-									"width": 62.0126953125,
+									"width": 86.5908203125,
 									"height": 25,
 									"stereotypeLabel": {
-										"$ref": "AAAAAAF5xK02R7y0xts="
+										"$ref": "AAAAAAF5xPB2/Y6a/lo="
 									},
 									"nameLabel": {
-										"$ref": "AAAAAAF5xK02R7y1QJ4="
+										"$ref": "AAAAAAF5xPB2/Y6bu0k="
 									},
 									"namespaceLabel": {
-										"$ref": "AAAAAAF5xK02R7y2ypY="
+										"$ref": "AAAAAAF5xPB2/Y6cn9o="
 									},
 									"propertyLabel": {
-										"$ref": "AAAAAAF5xK02R7y3F1c="
+										"$ref": "AAAAAAF5xPB2/Y6dL8A="
 									}
 								}
 							],
-							"containerView": {
-								"$ref": "AAAAAAF5xIfZkrdKDjo="
-							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 200,
+							"left": 184,
 							"top": 280,
-							"width": 62.0126953125,
+							"width": 86.5908203125,
 							"height": 40,
 							"nameCompartment": {
-								"$ref": "AAAAAAF5xK02R7yz+DU="
+								"$ref": "AAAAAAF5xPB2/I6ZcPk="
 							}
 						}
 					]
@@ -6072,6 +6066,14 @@
 							"name": "RegistracijaView"
 						}
 					]
+				},
+				{
+					"_type": "UMLSubsystem",
+					"_id": "AAAAAAF5xPB2/I6Whl0=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Korisnik"
 				}
 			]
 		}
